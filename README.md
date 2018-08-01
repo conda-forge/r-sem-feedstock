@@ -14,14 +14,16 @@ Summary: Functions for fitting general linear structural equation models (with o
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-sem-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-sem-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-sem-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-sem-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-sem-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-sem-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-sem-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-sem-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-sem-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-sem-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-sem-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-sem-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sem/badges/version.svg)](https://anaconda.org/conda-forge/r-sem)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sem/badges/downloads.svg)](https://anaconda.org/conda-forge/r-sem)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--sem-green.svg)](https://anaconda.org/conda-forge/r-sem) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-sem.svg)](https://anaconda.org/conda-forge/r-sem) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-sem.svg)](https://anaconda.org/conda-forge/r-sem) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-sem.svg)](https://anaconda.org/conda-forge/r-sem) |
 
 Installing r-sem
 ================
