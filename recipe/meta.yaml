@@ -51,7 +51,7 @@ test:
     - "\"%R%\" -e \"library('sem')\""  # [win]
 
 about:
-  home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+  home: http://socserv.socsci.mcmaster.ca/jfox/
   license: GPL (>= 2)
   summary: Functions for fitting general linear structural equation models (with observed and
     latent variables) using the RAM approach, and for fitting structural equations
