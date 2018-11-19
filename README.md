@@ -1,7 +1,7 @@
 About r-sem
 ===========
 
-Home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+Home: http://socserv.socsci.mcmaster.ca/jfox/
 
 Package license: GPL (>= 2)
 
