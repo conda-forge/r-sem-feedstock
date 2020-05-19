@@ -1,4 +1,4 @@
-{% set version = '3.1-9' %}
+{% set version = "3.1-11" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sem_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sem/sem_{{ version }}.tar.gz
-  sha256: 4a33780202506543da85877cd2813250114420d6ec5e75457bc67477cd332cb9
+  sha256: 33b1ad7695db13af8cdd214f5d388db494528b433c61c7ad89970cefcc8b430e
 
 build:
-  merge_build_host: True  # [win]
-  number: 1004
+  merge_build_host: true  # [win]
+  number: 0
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -54,11 +54,9 @@ test:
 about:
   home: http://socserv.socsci.mcmaster.ca/jfox/
   license: GPL (>= 2)
-  summary: Functions for fitting general linear structural equation models (with observed and
-    latent variables) using the RAM approach, and for fitting structural equations
-    in observed-variable models by two-stage least squares.
+  summary: Functions for fitting general linear structural equation models (with observed and latent variables) using the RAM approach, and for fitting structural equations in observed-variable models by two-stage least squares.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
